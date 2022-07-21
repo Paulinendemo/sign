@@ -2,18 +2,60 @@ body{
     margin-left: 10rem;
     margin-right: 10rem;
     margin-top: 10rem;
-    text-align: center;
-    display: block;
+    /* text-align: center; */
+
 }
-h3{
+form h3{
     font-size: 30px;
     color: blue;
+    text-align: center;
     
 }
+
 .user{
-    
+    display: flex;
+    flex-direction: column;
     font-size: 20px;
     font-family: poppin;
     font-weight: 600px;
-    margin-left: 3rem;
+
+}
+
+.sign{
+    border-radius: 2rem;
+    height: 600px;
+    width: 400px;
+    box-shadow: 0px 0px 5px black;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+input{
+    height: 20px;
+    font-size: 12px;
+    font-weight: 300px;
+    border-radius: 10rem;
+    color: black;
+    background-color: aquamarine;
+    height: 40px;
+    margin-bottom: 2rem;
+    
+}
+button{
+    background-color: blue;
+    color: black;
+    font-size: 30px;
+    border-radius: 3rem;
+    margin-left: 6.5rem;
+    margin-top: 1.5rem;
+    border: none;
+}
+button:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+.user .error{
+    color: red;
+    font-size: 8px;
 }
