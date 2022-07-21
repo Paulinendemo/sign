@@ -5,3 +5,15 @@ body{
     text-align: center;
     display: block;
 }
+h3{
+    font-size: 30px;
+    color: blue;
+    
+}
+.user{
+    
+    font-size: 20px;
+    font-family: poppin;
+    font-weight: 600px;
+    margin-left: 3rem;
+}
